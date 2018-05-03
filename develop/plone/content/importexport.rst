@@ -54,6 +54,12 @@ To export objects from a site to another, do the following:
 
 * Go to portal_catalog -> Advanced tab. *Clear and Rebuild* the catalog (raw Zope pickle does not know about anything living inside the catalog)
 
+plone.importexport
+-------------------------
+
+This addon is built on top of plone.restapi and provides a method to allow an editor to import content, export content or move content securely between sites. The exposed feature of this addon is to provide an easy-to-use UI for nontechnical users as well. In addition, this also checks for designated permission access and log all possible errors. This import/export feature will be applicable to all the Plone 5 default content-types and any regular Dexterity type.
+
+For more information on using, see `the package documentation <https://github.com/collective/plone.importexport>`_.
 
 collective.transmogrifier
 -------------------------
